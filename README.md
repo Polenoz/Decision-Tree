@@ -1,3 +1,5 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polenoz/Decision-Tree/blob/main/Decision_Trees_und_Random_Forests_Projekt.ipynb)
+
 # Decision Trees and Random Forests Project
 
 In this project, decision tree and random forest models are applied to a loan dataset. The goal is to predict whether a loan will be fully paid or not.
@@ -6,38 +8,37 @@ In this project, decision tree and random forest models are applied to a loan da
 
 The project uses the file:
 
-* Loan_Data.csv
+- Loan_Data.csv
 
-Make sure the file is in the same directory as the notebook.
+The dataset is loaded directly from the GitHub repository, so no manual upload is needed when the notebook is opened in Google Colab.
+
+## Required libraries
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
 
 ## How to run
 
-You can run the notebook in Google Colab:
+- Click the badge at the top
+- Open the notebook in Colab
+- Run all cells
 
-* Open the notebook
-* Upload the dataset file
-* Run all cells
+The dataset is loaded automatically.
 
-Or run it locally:
+## What is done
 
-* Install required libraries (pandas, numpy, scikit-learn, matplotlib, seaborn)
-* Open the notebook with Jupyter
-* Run all cells
-
-## What is done in this notebook
-
-* The dataset is loaded and explored
-* Data is prepared for modeling
-* Decision Tree model is trained
-* Random Forest model is trained
-* Predictions are made
-* The results are evaluated
+- Data is loaded and explored
+- Features are prepared
+- Decision Tree model is trained
+- Random Forest model is trained
+- Predictions are made
+- Results are evaluated
 
 ## Evaluation
 
-The models are evaluated using:
-
-* Classification report
-* Confusion matrix
-
-These metrics show how well the models perform.
+- Classification report
+- Confusion matrix
